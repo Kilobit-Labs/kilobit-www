@@ -518,10 +518,15 @@ main section.card {
     flex-direction: column;
     justify-content: space-evenly;
     padding: 20px;
+    color: #000;
 }
 
 main section.card:hover {
     box-shadow: 2px 2px 5px 0px;
+}
+
+main section.card a {
+    color: #636363;
 }
 
 section.card h2 {
